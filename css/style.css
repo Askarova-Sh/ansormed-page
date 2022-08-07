@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1460px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+*:focus{
+  outline: 2px dotted #DE2E54;
+  outline-offset: 3px;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.site-header{
+  background-color: #FFFFFF;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+.logo-link:active{
+  opacity: 0.6;
+}
+.header-list{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 32px;
+}
+.site-nav-item{
+  margin-right: 32px;
+}
+.site-nav-item:last-child{
+  margin-right: 0;
+}
+.site-nav{
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.4s ease,opacity 0.4s ease;
+}
+.site-nav:hover{
+  color: #DE2E54;
+}
+.site-nav:active{
+  opacity: 0.6;
+}
+.qabul-button{
+color: #FFFFFF;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+width: 189px;
+height: 47px;
+background: #DE2E54;
+border: 2px solid #DE2E54;
+border-radius: 8px;
+transition: color 0.4s ease,opacity 0.4s ease;
+}
+.qabul-button:hover{
+  background: #FFFFFF;
+  color: #DE2E54;
+}
+.qabul-button:active{
+  background: #DE2E54;
+opacity: 0.6;
+color: #FFFFFF;
+}
+.qabul-button2{
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 189px;
+  height: 47px;
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  }
+  .qabul-button2:hover{
+    background: rgba(222, 46, 84, 0.8);
+  }
+  .qabul-button2:active{
+    background: rgba(222, 46, 84, 0.6);
+  }
+  /* SITE Feature */
+  .site-feature{
+    background-color: #0EB4C1;
+    color: #FFFFFF;
+    padding-top: 29px;
+  }
+  .feature-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .feature-content{
+    width: 500px;
+    height: 293px;
+  }
+  .feature-title{
+    font-style: 36px;
+    margin-bottom: 16px;
+  }
+  .feature-comment{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 36px;
+    margin-top: 0;
+  }
