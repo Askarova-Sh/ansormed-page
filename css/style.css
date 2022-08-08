@@ -38,11 +38,11 @@ body{
   opacity: 0.6;
 }
 .header-list{
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    margin-right: 32px;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: 32px;
 }
 .site-nav-item{
   margin-right: 32px;
@@ -66,19 +66,19 @@ body{
   opacity: 0.6;
 }
 .qabul-button{
-color: #FFFFFF;
-text-decoration: none;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 189px;
-height: 47px;
-background: #DE2E54;
-border: 2px solid #DE2E54;
-border-radius: 8px;
-transition: color 0.4s ease,opacity 0.4s ease;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 189px;
+  height: 47px;
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  transition: color 0.4s ease,opacity 0.4s ease;
 }
 .qabul-button:hover{
   background: #FFFFFF;
@@ -86,8 +86,8 @@ transition: color 0.4s ease,opacity 0.4s ease;
 }
 .qabul-button:active{
   background: #DE2E54;
-opacity: 0.6;
-color: #FFFFFF;
+  opacity: 0.6;
+  color: #FFFFFF;
 }
 .qabul-button2{
   color: #FFFFFF;
@@ -102,35 +102,76 @@ color: #FFFFFF;
   background: #DE2E54;
   border: 2px solid #DE2E54;
   border-radius: 8px;
-  }
-  .qabul-button2:hover{
-    background: rgba(222, 46, 84, 0.8);
-  }
-  .qabul-button2:active{
-    background: rgba(222, 46, 84, 0.6);
-  }
-  /* SITE Feature */
-  .site-feature{
-    background-color: #0EB4C1;
-    color: #FFFFFF;
-    padding-top: 29px;
-  }
-  .feature-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .feature-content{
-    width: 500px;
-    height: 293px;
-  }
-  .feature-title{
-    font-style: 36px;
-    margin-bottom: 16px;
-  }
-  .feature-comment{
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 36px;
-    margin-top: 0;
-  }
+}
+.qabul-button2:hover{
+  background: rgba(222, 46, 84, 0.8);
+}
+.qabul-button2:active{
+  background: rgba(222, 46, 84, 0.6);
+}
+/* SITE Feature */
+.site-feature{
+  background-color: #0EB4C1;
+  color: #FFFFFF;
+  padding-top: 29px;
+}
+.feature-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature-content{
+  width: 500px;
+  height: 293px;
+}
+.feature-title{
+  font-style: 36px;
+  margin-bottom: 16px;
+}
+.feature-comment{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 36px;
+  margin-top: 0;
+}
+/* PROMO */
+.promo-title{
+  font-size: 36px;
+  line-height: 120%;
+  padding-top: 120px;
+  padding-right: 653px;
+  padding-left: 653px;
+  width: 133px;
+  height: 43px;
+}
+.promo-hijoma{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 864px;
+  height: 200px;
+}
+.hijoma-img{
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+  border-radius: 24px;
+  margin: 0;
+  margin-right: 64px;
+}
+.hijoma-title{
+  width: 195px;
+height: 29px;
+  font-size: 24px;
+  line-height: 120%;
+  color: #222222;
+  margin-bottom: 24px;
+}
+.hijoma-comment{
+width: 600px;
+height: 96px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #444444;
+}
